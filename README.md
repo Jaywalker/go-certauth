@@ -1,32 +1,26 @@
 certauth
 ========
-[![Go Report Card](https://goreportcard.com/badge/github.com/pantheon-systems/go-certauth)](https://goreportcard.com/report/github.com/pantheon-systems/go-certauth)
-
-This package provides TLS certificate based authentication middleware. Our goal is
-compatibility with `net/http`, `httprouter` and possibly other popular Go HTTP
-routers.
+This package provides TLS certificate based authentication middleware.
+Only  compatibile with `httprouter`.
 
 Usage
 -----
 
-Examples of usage with various http router libs in the `./examples` directory.
+Examples of usage with various http router libs in the `./examples` directory. But they're broken right now.
 
 Contributing
 ------------
 
-@TODO: a couple steps
+You can try, but probably better to just fork me like I did with this to start with. Unless you're very lucky,
+I'll probably ignore any pull requests or tickets.
 
 Acknowledgments
 ---------------
 
+Originally forked from https://github.com/pantheon-systems/go-certauth.
+
+Their original acknowledgements:
+
 A big thanks to the https://github.com/unrolled/secure project whose approach to
 writing middleware helped us figure out our approach to creating this project.
 
-TODO
-----
-
-- [x] add support for github.com/julienschmidt/httprouter
-- [x] add examples for using with net/http and httprouter
-- [ ] makefile with gvt for deps now that we're depending on httprouter
-- [ ] circle.yml
-- [ ] add helper for compatibility with negroni (example: https://github.com/unrolled/secure/blob/v1/secure.go#L110-L111)
