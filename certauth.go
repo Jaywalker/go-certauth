@@ -1,4 +1,4 @@
-package mutualtls
+package certauth
 
 import (
 	"bytes"

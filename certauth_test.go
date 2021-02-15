@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/pantheon-systems/go-certauth"
+	"github.com/Jaywalker/go-certauth"
 )
 
 func expect(t *testing.T, a interface{}, b interface{}) {

@@ -20,8 +20,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/pantheon-systems/go-certauth"
-	"github.com/pantheon-systems/go-certauth/certutils"
+	"github.com/Jaywalker/go-certauth"
+	"github.com/Jaywalker/go-certauth/certutils"
 )
 
 func HelloServer(w http.ResponseWriter, req *http.Request) {

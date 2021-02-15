@@ -26,9 +26,9 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/Jaywalker/go-certauth"
+	"github.com/Jaywalker/go-certauth/certutils"
 	"github.com/julienschmidt/httprouter"
-	"github.com/pantheon-systems/go-certauth"
-	"github.com/pantheon-systems/go-certauth/certutils"
 )
 
 func Index(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
